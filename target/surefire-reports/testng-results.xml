@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-06T16:01:16 IST" name="Suite" finished-at="2023-12-06T16:01:37 IST" duration-ms="21170">
+    <groups>
+    </groups>
+    <test started-at="2023-12-06T16:01:16 IST" name="Test" finished-at="2023-12-06T16:01:37 IST" duration-ms="21170">
+      <class name="com.myStore.testCases.TC_AccountPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myStore.testCases.TC_AccountPageTest@48aca48b]" started-at="2023-12-06T16:01:16 IST" name="setUp" finished-at="2023-12-06T16:01:25 IST" duration-ms="8988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRegistrationAndLogin()[pri:0, instance:com.myStore.testCases.TC_AccountPageTest@48aca48b]" started-at="2023-12-06T16:01:25 IST" name="verifyRegistrationAndLogin" finished-at="2023-12-06T16:01:27 IST" duration-ms="1440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationAndLogin -->
+      </class> <!-- com.myStore.testCases.TC_AccountPageTest -->
+      <class name="com.myStore.testCases.TC_AccountCreation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myStore.testCases.TC_AccountCreation@273e7444]" started-at="2023-12-06T16:01:27 IST" name="setUp" finished-at="2023-12-06T16:01:34 IST" duration-ms="7695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginCredential()[pri:0, instance:com.myStore.testCases.TC_AccountCreation@273e7444]" started-at="2023-12-06T16:01:34 IST" name="verifyLoginCredential" finished-at="2023-12-06T16:01:37 IST" duration-ms="3001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginCredential -->
+      </class> <!-- com.myStore.testCases.TC_AccountCreation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

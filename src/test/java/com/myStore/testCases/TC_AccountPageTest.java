@@ -20,10 +20,11 @@ public class TC_AccountPageTest extends BaseClass {
 		
 		MyAccountPage mc=new MyAccountPage(driver);
 		
-	mc.enterEmailId("shraddha123@gmail.com");
+	mc.enterEmailId("anuradha123@gmail.com");
 	logger.info("Email address enter succesfully ");
 		mc.clickOnCreateAnAccountBtn();
-		logger.info("click on Create Account Succesfully");
+		//logger.info("click on Create Account Succesfully");
+		
 		
 	}
 

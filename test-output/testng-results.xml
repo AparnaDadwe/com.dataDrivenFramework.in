@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T15:36:00 IST" name="Default suite" finished-at="2023-11-30T15:36:12 IST" duration-ms="12017">
+  <suite started-at="2023-12-10T19:03:38 IST" name="Suite" finished-at="2023-12-10T19:04:07 IST" duration-ms="29502">
     <groups>
     </groups>
-    <test started-at="2023-11-30T15:36:00 IST" name="Default test" finished-at="2023-11-30T15:36:12 IST" duration-ms="12017">
-      <class name="com.myStore.testCases.TC_AccountCreation">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myStore.testCases.TC_AccountCreation@25fb8912]" started-at="2023-11-30T15:36:00 IST" name="setUp" finished-at="2023-11-30T15:36:09 IST" duration-ms="8979" status="PASS">
+    <test started-at="2023-12-10T19:03:38 IST" name="Test" finished-at="2023-12-10T19:04:07 IST" duration-ms="29502">
+      <class name="com.myStore.testCases.TC_ProductSearch">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.myStore.testCases.TC_ProductSearch@2c1b194a]" started-at="2023-12-10T19:03:38 IST" name="setUp" finished-at="2023-12-10T19:03:45 IST" duration-ms="6994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginCredential()[pri:0, instance:com.myStore.testCases.TC_AccountCreation@25fb8912]" started-at="2023-11-30T15:36:09 IST" name="verifyLoginCredential" finished-at="2023-11-30T15:36:12 IST" duration-ms="2990" status="PASS">
+        <test-method signature="verifyBuyProduct()[pri:0, instance:com.myStore.testCases.TC_ProductSearch@2c1b194a]" started-at="2023-12-10T19:03:45 IST" name="verifyBuyProduct" finished-at="2023-12-10T19:04:04 IST" duration-ms="18790" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginCredential -->
-      </class> <!-- com.myStore.testCases.TC_AccountCreation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- verifyBuyProduct -->
+        <test-method signature="verifySearchProduct()[pri:0, instance:com.myStore.testCases.TC_ProductSearch@2c1b194a]" started-at="2023-12-10T19:04:04 IST" name="verifySearchProduct" finished-at="2023-12-10T19:04:07 IST" duration-ms="3452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.myStore.testCases.TC_ProductSearch@2c1b194a]" started-at="2023-12-10T19:04:07 IST" name="tearDown" finished-at="2023-12-10T19:04:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myStore.testCases.TC_ProductSearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
